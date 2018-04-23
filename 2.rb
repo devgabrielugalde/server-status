@@ -10,10 +10,6 @@ get '/' do
 
 end
 
-get '/rota1' do
-	"Rota Um"
-end
-
 get '/kill' do
 	system('./kill')
 end
