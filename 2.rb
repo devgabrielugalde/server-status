@@ -14,6 +14,10 @@ get '/rota1' do
 	"Rota Um"
 end
 
+get '/rota2' do
+	"Rota Dois"
+end
+
 get '/kill' do
 	system('./kill')
 end
