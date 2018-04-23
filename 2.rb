@@ -12,6 +12,8 @@ get '/kill' do
 	system('./kill')
 end
 
+asdfasd
+
 get '/up' do
 	system('./start')
 end
