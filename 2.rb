@@ -5,9 +5,7 @@ require 'sinatra'
 require 'date'
 
 get '/' do
-
 	"#{check} - #{Time.now}"
-
 end
 
 get '/kill' do
